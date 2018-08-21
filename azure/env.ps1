@@ -1,0 +1,12 @@
+$Env:AZURE_CLIENT_ID='CHANGE_ME'
+$Env:AZURE_CLIENT_SECRET='CHANGE_ME'
+$Env:AZURE_TENANT_ID='CHANGE_ME'
+$Env:AZURE_SUBSCRIPTION_ID='CHANGE_ME'
+$Env:TF_VAR_azure_client_id=$Env:AZURE_CLIENT_ID
+$Env:TF_VAR_azure_client_secret=$Env:AZURE_CLIENT_SECRET
+$Env:TF_VAR_azure_tenant_id=$Env:AZURE_TENANT_ID
+$Env:TF_VAR_azure_subscription_id=$Env:AZURE_SUBSCRIPTION_ID
+$Env:TF_VAR_arm_client_id=$Env:AZURE_CLIENT_ID
+$Env:TF_VAR_arm_client_secret=$Env:AZURE_CLIENT_SECRET
+$Env:TF_VAR_arm_tenant_id=$Env:AZURE_TENANT_ID
+$Env:TF_VAR_arm_subscription_id=$Env:AZURE_SUBSCRIPTION_ID
