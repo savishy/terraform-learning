@@ -124,7 +124,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     disable_password_authentication = true
     ssh_keys {
       path     = "/home/azureuser/.ssh/authorized_keys"
-      key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1OKbp4SK3QBjkOtYdxko2NpSAZJtsgDKOnCM5tC7bOzo5h2x6oMsGCiKl2XD7b4ZC4Gy00kQKtHG0RekZOjhvGZj2U3/yElyYN0tIC+ic20vvuEISMvzGz8JTHZhbt3U8GFWy2wwBhBRXT4mzdcTeibhKjmAGUvz1Ch7rcc+OjgXNLtP64dkRsCEVzhbgOoa2RmWELXIBpJmLkKTXBvAYt+inrKw5jLZPv4Dcn4eUxgHOKeALENMVynseNjtoQtaUpUQ+yo0mDRI9CKZ9atP3vUWmPrc6tjR2tMZBVmdcODGEHgwjhI4grxJL37RtFp4H6reau0pXIJc/6h0BxZ8sZNNZDr+bWXYqoyjPo5pn7ulu9ZIAtErHEWVtcwkw1OJxSFG8WdFZ3Z3hfaqgHuFxrMkvYwBF1ZAiSV2YTn1yi4ryeADX9P7FEp7347kL5Ahf7gwWLXuI1nppdIJaNqBwMqunxWhTm9VurjlFdB4USO90BUOMiAXLLfWkE/+wMVzkOUOqkwwkCwZaon8A62VTMSx7T3r+AypWDHn+Uf6cS6jIoGtinbxZZpZ/i0uX3qiTqbqsvYf8GxcK9q4YoYPrLYR7r7tsebckPRZzHLINH8IGGLgEc5LVng2d9Sjx1BXTxHxKqN2GAPXj6AaWFH6Uqf4Kbv+Vo7cFjq3aafHYAw=="
+      key_data = "ssh-rsa CHANGE_ME=="
     }
   }
 
