@@ -1,0 +1,8 @@
+storage_account_name = "terraformstoragetest"
+container_name = "tfstoragecontainer"
+resource_group_name = "tfstorage_rg"
+key = "poc.terraform.tfstate"
+arm_subscription_id = "CHANGE_ME"
+arm_client_id = "CHANGE_ME"
+arm_tenant_id = "CHANGE_ME"
+arm_client_secret = "CHANGE_ME"
