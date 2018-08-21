@@ -7,20 +7,6 @@ provider "azurerm" {
   tenant_id       = "${var.azure_tenant_id}"
 }
 
-terraform {
-  backend "azurerm" {
-  }
-}
-
-data "terraform_remote_state" "tf_azurerm_backend" {
-  backend = "azurerm"
-  config {
-    storage_account_name = "${var.tfstorageaccount_name}"
-    resource_group_name = "${var.tfstorageaccount_rg_name}"
-    container_name       = "${var.tfstorageaccount_container_name}"
-    key                  = "${var.env}.terraform.tfstate"
-  }
-}
 # Create a resource group if it doesn’t exist
 resource "azurerm_resource_group" "myterraformgroup" {
   name     = "${var.rg_name}"
